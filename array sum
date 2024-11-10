@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int sum;
+    float per;
+    int marks[5];
+    printf("enter marks of physics:");
+    scanf("%d" ,&marks[0]);
+    printf("enter marks of chemistry:");
+
+    scanf("%d" ,&marks[1]);
+    printf("enter marks of maths:");
+    scanf("%d" ,&marks[2]);
+     printf("enter marks of computer:");
+    scanf("%d" ,&marks[3]);
+     printf("enter marks of hindi:");
+    scanf("%d" ,&marks[4]);
+    sum=(marks[0]+marks[1]+marks[2]+marks[3]+marks[4]);
+    per=sum*0.2;
+    printf("percentage is :%f",per);
+    return 0;
+}
