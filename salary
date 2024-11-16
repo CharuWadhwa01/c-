@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    float bs,da,hr,gs;
+    printf("enter basic salary is:");
+    scanf("%f",&bs);
+    da=(40/bs)*100;
+    hr=(20/bs)*100;
+    gs= bs+da+hr;
+    printf("gross salary is :%f" ,gs);
+    return 0;
+}
+
+
+    
