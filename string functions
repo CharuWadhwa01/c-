@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main(int argc, char const *argv[])
+{
+    char firstr[]="charu ";
+    char secstr[]="charu wadhwa";
+    printf("%d" ,strcmp(secstr,firstr));
+   
+    return 0;
+}
