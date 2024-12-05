@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int marks[2][3];
+    marks[0][0]=56;
+    marks[0][1]=46;
+    marks[0][3]=26;
+    marks[1][0]=46;
+    marks[1][1]=96;
+    marks[2][1]=86;
+    printf("%d" ,marks[0][0]);
+    return 0;
+}
