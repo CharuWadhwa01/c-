@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    float price =100.0 ;
+    float *ptr=&price;
+    printf("ptr is:%u\n",ptr);
+    ptr++;
+    printf("ptr is:%u\n",ptr);
+    ptr--;
+    printf("ptr is:%u",ptr);
+    return 0;
+}
