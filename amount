@@ -1,0 +1,17 @@
+#include<math.h>
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int unitconsumed , costperunit;
+    float tbill;
+    printf("enter unit is:");
+    scanf("%d" ,&unitconsumed);
+    printf("enter cost is:");
+    scanf("%d" ,&costperunit);
+    tbill=pow(unitconsumed,costperunit);
+    printf("total bill is:%f" ,tbill);
+    return 0;
+}
+
+
+
