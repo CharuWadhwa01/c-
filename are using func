@@ -1,0 +1,23 @@
+#include <stdio.h>
+float areasquare (float s);
+float areacircle(float r);
+float arearectangle(float l, float b);
+int main()
+{
+    float s=6.0;
+
+    areasquare(s);
+    
+
+
+    return 0;
+}
+float areasquare(float s){
+    printf("area is:%f\n" ,s*s);
+}
+float areacircle(float r){
+    return 3.14*r*r;
+}
+float arearectangle(float l, float b){
+    return l*b;
+}
