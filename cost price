@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    float sp,p,cp;
+    printf("enter selling price of 15 items\n");
+    printf("enter profit\n");
+    scanf("%f" ,&sp);
+    scanf("%f" ,&p);
+    cp=sp-p;
+    printf("cost price is:%f" ,cp);
+    return 0;
+}
