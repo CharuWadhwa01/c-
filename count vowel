@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int  countvowel(char arr[]);
+
+int main(int argc, char const *argv[])
+{
+    char arr[]="i am charu wadhwa";
+    printf("vowels are:%d",(countvowel(arr)));
+    return 0;
+}
+int countvowel(char arr[]){
+    int c=0;
+    for (int i = 0; arr[i]!='\0'; i++)
+    {
+        if (arr[i]=='a'||arr[i]=='e'||arr[i]=='i'||arr[i]=='o'||arr[i]=='u')
+        {
+            c++;
+        }
+    }
+    return c;
+    
+}
