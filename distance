@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int d,m,feet,inch,cm;
+    printf("enter distance in km is:");
+    scanf("%d" ,&d);
+    m=d*1000;
+    printf("distance in meters is:%d\n" ,m);
+    feet=3280*d;
+    printf("distance in feets is: %d\n",feet);
+    inch=39370*d;
+    printf("distance in inches is:%d\n" ,inch);
+    cm=100000*d;
+    printf("distance in centimeters is: %d\n" ,cm);
+
+    return 0;
+}
