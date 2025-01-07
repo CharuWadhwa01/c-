@@ -1,0 +1,20 @@
+#include<stdio.h>
+int calsum(int a,int b,int c);
+int main()
+{
+    int a,b,c,cal;
+      printf("enter values of a,b,c ");
+     scanf("%d",&a);
+      scanf("%d",&b);
+       scanf("%d",&c);
+       cal=calsum(a,b,c);
+
+    printf("sum is=%d",cal);
+}
+int calsum(int a,int b,int c)
+{
+    int sum;
+    sum=a+b+c;
+   
+    return sum;
+}
