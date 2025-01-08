@@ -1,0 +1,39 @@
+#include<stdio.h>
+void main()
+{
+    int u;
+    double c,tb;
+    printf("enter number of units");
+    scanf("%d",&u);
+    if (u<50)
+    {
+        c=u*1+u*0.18;
+        printf("charge is=%lf",c);
+
+    }
+    else if (u<100)
+    {
+        c=50+(100-u)*1.5;
+        tb=c*0.18+c;
+        printf("tb is=%lf\n",tb);
+    }
+    else if (u<150)
+    {
+        c=50*1+75+(150-u)*2;
+         tb=c*0.18+c;
+        printf("tb is=%lf\n",tb);
+    }
+    else if (u<200)
+    {
+        c=50*1+75+100+(200-u)*2.5;
+        tb=c*0.18+c;
+        printf("tb is=%lf\n",tb);
+    }
+    else if(u>200)
+    {
+        c=50*1+75+100+125+(u-200)*3;
+         tb=c*0.18+c;
+        printf("tb is=%lf\n",tb);
+    }
+
+}
