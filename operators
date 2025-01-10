@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+   int  a=1,b=0,z=5;
+    if (a && b||z++)
+    {
+        printf("hi");
+
+    }
+    else
+    {
+        printf("by");
+    }
+    
+    
+}
