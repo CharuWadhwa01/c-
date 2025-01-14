@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int *a = (int*)malloc(sizeof(int));
+    int *b = (int*)malloc(sizeof(int));
+    int *c = (int*)malloc(sizeof(int));
+    int *d = (int*)malloc(sizeof(int));
+
+    if (a == NULL || b == NULL || c == NULL || d == NULL) {
+        printf("Memory allocation failed\n");
+        return 1;
+    }
+
+    *a = 45;
+    *b = 89;
+    *c = 67;
+    *d = 23;
+
+    printf("first block is: %d\n", *a);
+    printf("second block is: %d\n", *b);
+    printf("third block is: %d\n", *c);
+    printf("fourth block is: %d\n", *d);
+
+    free(a);
+    free(b);
+    free(c);
+    free(d);
+
+    return 0;
+}
