@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int amtgiven,billamt,quo,rema;
+    printf("enter amountgiven is:\n");
+    printf("enter billamount is:\n");
+    scanf("%d" ,&amtgiven);
+    scanf("%d" ,&billamt);
+    quo=(amtgiven/billamt);
+    printf("quotient is :%d\n" , quo);
+    rema=(amtgiven%billamt);
+    printf("remainder is :%d\n" , rema); 
+    return 0; 
+}
+
+
+    
+
+
