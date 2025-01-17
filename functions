@@ -1,0 +1,23 @@
+#include <stdio.h>
+void printhello();
+void goodbye();
+
+int main()
+{
+    printhello();
+    printhello();
+    printhello();
+    printhello();
+    goodbye();
+    
+
+    return 0;
+}
+void printhello(){
+    printf("hello\n");
+    printf("hi my name is charu wadhwa\n");
+    printf("i am a good student and gonna persue for btech at jaipur\n ");
+}
+void goodbye(){
+    printf("goodbye\n");
+}
