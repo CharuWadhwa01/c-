@@ -1,0 +1,16 @@
+#include<stdio.h>
+ void printnumbers( int *arr,int n);
+int main(int argc, char const *argv[])
+{
+    int arr[10]={1,2,56,7,8,9,10,34,56,8};
+    printnumbers(arr,7); 
+ 
+    return 0;
+}
+void printnumbers( int *arr,int n){
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d\n" ,arr[i]);
+    }
+    
+}
