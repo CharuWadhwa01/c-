@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int a,b,c,d;
+    printf("enter a number in location c\n");
+    printf("enter a number in location d\n");
+    scanf("%d" ,&a);
+    scanf("%d" ,&b);
+    c=b;
+    d=a;
+    printf("after interchanging contents in c is :%d\n" ,c);
+    printf("after interchanging contents in d is :%d\n" ,d);
+    return 0;
+}
