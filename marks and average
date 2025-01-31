@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int a,b,c,d,e,avg;
+    float per,tm=500;
+    printf("enter marks for 1st subject\n");    
+    printf("enter marks for 2nd subject\n");    
+    printf("enter marks for 3rd subject\n");    
+    printf("enter marks for 4th subject\n");    
+    printf("enter marks for 5th subject\n");   
+    scanf("%d" ,&a);
+    scanf("%d" ,&b);
+    scanf("%d" ,&c);
+    scanf("%d" ,&d);
+    scanf("%d" ,&e);
+    avg=a+b+c+d+e;
+    printf("aggregate marks are:%d\n" ,avg);
+    per=(avg/tm)*100;
+    printf("percentage is:%f" ,per);
+    return 0;
+}
