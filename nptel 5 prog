@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int i;
+    char a[]="";
+    if (printf("%s",a))
+    {
+        printf("string empty");
+    }
+    else
+    {
+       printf("string not empty");  
+    }
+    
+    
+}
