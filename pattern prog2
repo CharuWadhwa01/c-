@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    int i,j,k,l,r;
+    scanf("%d",&r);
+    for ( i = 0; i < r; i++)
+    {
+    for ( j = 0; j < r; j++)
+    {
+        for ( k = r-1; k>j; k--)
+        {
+        printf( " ");
+        }
+        for ( l = 0; l<=j; l++)
+        {
+        printf("*");
+        }
+        printf("\n");
+        
+    }
+    
+    
+    }
+    
+}
