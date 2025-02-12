@@ -1,0 +1,14 @@
+#include<stdio.h>
+float percentage(float science, float maths,float sanskrit);
+
+int main(int argc, char const *argv[])
+{
+    
+    printf("marks is :%f", percentage(45,78,67));
+    return 0;
+}
+float percentage(float science, float maths,float sanskrit){
+    float marks=((science+maths+sanskrit)/300)*100;
+    return marks;
+}
+
