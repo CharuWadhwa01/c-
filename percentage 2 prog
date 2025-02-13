@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int arr[10];
+    int i,sum=0;
+    double p;
+    printf("enter marks");
+    scanf("%d",&arr[i]);
+    for ( i = 1; i < 10; i++)
+    {
+        sum+=arr[i];
+        p=sum/10;
+        printf("percentage is=%lf",p);
+    }
+    
+}
